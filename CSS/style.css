@@ -66,12 +66,13 @@ a{
 /* nis foto background n nav*/
 .hero{
     
-    background-image: url(images.png/foto1.png);
+    background-image: url(images.png/best\ logo.png);
     background-position: top center;
     background-size: cover;
     background-attachment: fixed;
     position: relative;
     z-index: 1;
+    width: 100%;
 
 }
 
@@ -82,7 +83,7 @@ height: 100%;
 position: absolute;
 top: 0;
 left: 0;
-background-color: rgba(75, 73, 128, 0.8);
+background-color: rgba(53, 61, 62, 0.295);
 z-index: -1;
 
 
