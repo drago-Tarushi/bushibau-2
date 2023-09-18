@@ -210,6 +210,32 @@ opacity: .7;
         font-weight: 500;
     }
 }
+
+/*
+@keyframes slideInLeft{
+    from{
+        transform: translateX(-300px);
+    }
+    to{
+        transform:translateX(0);
+    }
+
+}
+
+
+.innen-1{
+    animation-name:slideInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+
+    transform: translateX(-150px); 
+
+*/
+
 /* fund keyframe */
 
 
@@ -344,3 +370,50 @@ transition: all 0.4s ease;
 .footer-bottom{
     background-color: #242933;
 }
+
+
+#banner{
+    background-image:url(images.png/puc1.png);
+width: 100%;
+height: 60vh;
+background-size: cover;
+background-position: cover;
+background-position: top 70px center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+}
+
+#banner h4{
+    color: #414040;
+    text-decoration: underline;
+}
+
+#banner h1{
+    color: #414040;
+    text-decoration: underline;
+}
+
+#banner button{
+        display: inline-block;
+        padding: 10px 20px;
+        color: #6c6c6s;
+        background-color: transparent;
+        border: 2px solid #7db6d5;
+        font-size: 1rem;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        margin-top: 36px;
+        transition: 0.3s ease background-color, color;
+        
+}
+
+#banner button:hover{
+    color: #fff;
+    background-color: #7db6d5;
+}
+
+
