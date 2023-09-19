@@ -206,7 +206,7 @@ opacity: .7;
 
 @keyframes text_reveal_name{
     100%{
-        color: #7db6d5;
+        color: #52abdb;
         font-weight: 500;
     }
 }
@@ -379,7 +379,7 @@ background-size: cover;
 background-position: cover;
 background-position: top 70px center;
 background-repeat: no-repeat;
-background-attachment: fixed;
+/*background-attachment: fixed; e ben foton te levize kur ben scroll*/
 display: flex;
 flex-direction: column;
 justify-content: center;
