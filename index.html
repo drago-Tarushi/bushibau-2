@@ -28,15 +28,26 @@
         #hero {
             background-image: url(image.html/best_logo.png); /* Adjust the image path as needed */
             background-size: cover;
-            background-position: center;
+            background-attachment: fixed;
+            background-position: top center;
             height: 100vh;
             width: 100%;
-            /*display: flex;*/
+            display: flex;
             align-items: center;
+            
         }
 
         #hero .container {
             text-align: left;
+            background-color: rgba(53, 61, 62, 0.295);
+            background-position: top center;
+            background-attachment:fixed;
+            position: relative;
+            z-index: 1;
+            opacity: .7;
+            margin: 0 auto;
+            padding: 0 50px;
+            justify-content: flex-start;
         }
 
         #hero h1 {
@@ -47,9 +58,29 @@
             animation: text_reveal .5s ease forwards;
         }
 
-
+        #hero::after{
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
        
-        
+
+
+#hero h1{
+    
+    font-style: italic;
+    display: block;
+    width: fit-content;
+    font-size: 2.5rem;
+    position: relative;
+    color:transparent;
+    animation: text_reveal .5s ease forwards;
+    animation-delay:1.5s ;
+}
         
 </style>
 </head>
@@ -114,8 +145,8 @@
 
     <!-- HERO-->
     <section id="hero"> 
-        
-        <div class="container">
+        <!--<div class="hero vh-100 d-flex align-items-center" style="background-image: url('image.html/best_logo.png');"> -->
+        <div class="container vh-100 d-flex align-items-center">
             <div class="row">
                 <div>
                     <h1>WILLKOMMEN<span></span></h1>

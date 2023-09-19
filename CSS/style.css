@@ -65,7 +65,7 @@ a{
 /*logo fund*/
 /* nis foto background n nav*/
 
-.hero{
+.container{
     background-position: top center;
     background-size: cover;
     background-attachment:fixed;
@@ -114,7 +114,7 @@ z-index: -1;
 opacity: .7;
 }
 
-*/
+
 #hero .hero{
     
     margin: 0 auto;
@@ -133,6 +133,7 @@ opacity: .7;
     animation: text_reveal .5s ease forwards;
     animation-delay:1.5s ;
 }
+*/
 
 #hero h1:nth-child(1){
     animation-delay: 1s;
