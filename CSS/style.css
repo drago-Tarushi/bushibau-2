@@ -70,8 +70,7 @@ a{
     background-attachment:fixed;
     position: relative;
     z-index: 1;
-   width: 100%;
-   height: max-content;
+   
 }
 
 
@@ -115,8 +114,8 @@ opacity: .7;
 }
 
 */
-#herp .hero{
-    max-width: 1200px;
+#hero .hero{
+    
     margin: 0 auto;
     padding: 0 50px;
     justify-content: flex-start;
